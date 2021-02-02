@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        "Weather Visualizations"
+    </title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CDN and style sheet references -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Background color class ref-->
+<body class="body_class">
+
+<!-- Add a navbar, used Youtube video here to help me through it... https://www.youtube.com/watch?v=23bpce-5s8I-->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a href="index.html" class="navbar-brand">Latitude</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="temperature.html" class="nav-link">Max Temperature</a>
+                </li>
+                <li class="nav-item"><a href="humidity.html" class="nav-link">Humidity</a>
+                </li>
+                <li class="nav-item"><a href="cloudiness.html" class="nav-link">Cloudiness</a>
+                </li>
+                <li class="nav-item"><a href="windspeed.html" class="nav-link">Wind Speed</a>
+                </li>
+                <li class="nav-item"><a href="comparisons.html" class="nav-link">Comparisons</a>
+                </li>
+                <li class="nav-item"><a href="data.html" class="nav-link">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+ 
+    <!--Container Class Elements-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Comparison: Latitude vs. X</h1>
+            <hr>
+            <b>Pick any plot to get an in-depth analysis</b>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 xs-6">
+                    <h2 style="font-size:small; color:aqua; text-align:center">vs Max Temperature</h2>
+                    <a href="temperature.html"><img src="Resources\assets\images\Fig1.png" style="width:90%"></a>
+                </div>
+                <div class="col-sm-6 col-md-6 xs-6">
+                    <h2 style="font-size:small; color:aqua; text-align:center">vs Humidity</h2>
+                    <a href="humidity.html"><img src="Resources\assets\images\Fig2.png" style="width:90%"></a>
+                </div>
+            </div>
+            <p></p>
+            <p></p>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 xs-6">
+                    <h2 style="font-size:small; color:aqua; text-align:center">vs Cloudiness</h2>
+                    <a href="cloudiness.html"><img src="Resources\assets\images\Fig3.png" style="width:90%"></a>
+                </div>
+                <div class="col-sm-6 col-md-6 xs-6">
+                    <h2 style="font-size:small; color:aqua; text-align:center">vs Wind Speed</h2>
+                    <a href="windspeed.html"><img src="Resources\assets\images\Fig4.png" style="width:90%"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
